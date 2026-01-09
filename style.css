@@ -126,7 +126,7 @@ nav .menu a {
     color: #FFFFFF;
 }
 .btn-primary:hover {
-    background: white;
+    background: transparent;
     transition: 0.3s;
     color: #469165;
 }
@@ -141,7 +141,7 @@ nav .menu a {
     
 }
 .btn-outline:hover {
-    background: white;
+    background: #30B868;
     transition: 0.3s;
     color: white;
 }
@@ -195,4 +195,47 @@ nav .menu a {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 21.5px;
+}
+
+#Second-Brain-Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 120px 41px 120px;
+}
+#Second-Brain-Section .img {
+    width: 600px;
+    height: 600px;
+    background-image: url(image/knowledge.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.brain-details {
+    padding: 102px 0px 102px 60px;
+    background: ;
+}
+.brain-details p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #627382;
+}
+.brain-details h3 {
+    font-size: 48px;
+    font-weight: bold
+    margin-bottom: 16px;
+    ine-height: -10px;
+}
+.brain-details ul {
+    margin-top: 40px;
+}
+.brain-details ul li{
+    display: flex;
+    font-size: 16px;
+    font-weight:400;
+}
+.brain-details ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
 }
